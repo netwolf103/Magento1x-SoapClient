@@ -1,0 +1,24 @@
+{
+    "name": "zhao/magento1x-soap-client",
+    "description": "Magento 1.x soap client.",
+    "keywords": [
+        "php",
+        "Magento",
+        "Soap"
+    ],
+    "homepage": "https://github.com/netwolf103/Magento1x-SoapClient",
+    "authors": [
+        {"name": "Zhang Zhao", "email": "netwolf103@gmail.com"}
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Zhao\\Api\\Magento1x\\Soap\\": "src/Soap"
+        }
+    }
+}
